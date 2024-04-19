@@ -1,0 +1,14 @@
+10)Faça um Programa que leia três números e mostre o maior deles.
+#digite os valores para a comparação
+valor1 = int(input("digite o primeiro valor"))
+valor2 = int(input("digite o segundo valor"))
+valor3 = int(input("digite o terceiro valor"))
+#fazer as comparações de qual número é maior
+if valor1 > valor2 and valor1 > valor3:
+ print ("o valor1 é o maior número.") 
+#se:
+if    valor2 > valor1 and valor2 > valor3:
+  print ("o valor2 é o maior número.")
+#então: 
+elif valor3 > valor1 and valor3 > valor2:
+  print ("o valor3 é o maior número.")
